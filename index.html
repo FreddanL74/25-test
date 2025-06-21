@@ -132,7 +132,7 @@
     }
 
     $(document).ready(() => {
-      $.getJSON('https://raw.githubusercontent.com/FreddanL74/25-test/main/VR2514300_res.json', json => {
+      $.getJSON('VR2514300_res.json', json => {
         data = json.sort(placementSort);
         update();
       });
